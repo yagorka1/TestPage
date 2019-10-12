@@ -1,0 +1,36 @@
+{
+  "name": "TestPage",
+  "version": "0.0.1",
+  "description": "Initial project template for TestPage",
+  "main": "src/main.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "dev": "webpack-dev-server --node development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagorka1/TestPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yagorka1/TestPage.git/issues"
+  },
+  "homepage": "https://github.com/yagorka1/TestPage.git#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
