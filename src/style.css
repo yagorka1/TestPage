@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
 body {
   margin: 0 auto;
@@ -13,7 +15,7 @@ body {
 
 .header {
   width: 1440px;
-  height: 806px;
+  height: 805px;
   background-color: #eff0f2;
   display: flex;
   flex-direction: column;
@@ -108,6 +110,193 @@ body {
   margin-top: -25px;
 }
 
+/*main*/
+
+.main {
+  width: 100%;
+  height: 6393px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:red;
+}
+
+.about_us_wrap {
+  width: 100%;
+  height: 985px;
+  display: flex;
+  justify-content: center;
+  background-color:#f8fafa;
+}
+
+.about_us {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 1440px;
+  margin-top: 129px;
+}
+
+.titles_h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 27pt;
+  color: #323333;
+  margin-left: 23px;
+  margin-top: -9px;
+  letter-spacing: 2pt;
+}
+
+.description {
+  font-family: 'Merriweather';
+  color: #848585;
+  font-size: 15pt;
+  margin-top: -31px;
+}
+
+.about_us_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1066px;
+  margin-top: 122px;
+  margin-left: -2px;
+  /* background-color: red; */
+}
+
+.about_us_slides {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 478px;
+}
+
+.aa {
+  display: flex;
+  flex-direction: row;
+  width: 478px;
+}
+
+.apple_img {
+  margin: 0 auto;
+  padding: 0;
+  width: 392px;
+  box-shadow:  0px 0px 30px 10px #EBECED;
+}
+
+.apple_img1 {
+  box-shadow:  0px 0px 30px 10px #EBECED;
+}
+
+.gray_div {
+  height: 413px;
+  width: 44px;
+  background-color: #EDEEF0;
+  margin-top: 35px;
+}
+
+.choose_slides {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 48px;
+  margin-top: 39px;
+  margin-left: -37px;
+}
+
+
+.square {
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  background-color: #D0D0D0;
+}
+
+.chosen_sq {
+  background-color: #71F6EB;
+}
+.description_about_us {
+  width: 474px;
+}
+
+.h2_about_us {
+  font-family: 'Merriweather';
+  font-size: 16pt;
+  word-spacing: 2pt;
+  letter-spacing: 0.07pt;
+  margin-top: -0px;
+  color: #5f6160
+}
+
+.h2_about_us{
+  margin-bottom: 18px;
+}
+
+.h2_about_us_second{
+  margin-bottom: 18px;
+  margin-top: 35px;
+  font-size: 12pt;
+  letter-spacing: 1pt;
+}
+
+.p_about {
+  font-size: 12pt;
+  font-family: 'Raleway';
+  color: #666767;
+  letter-spacing: 0.4pt;
+  line-height: 21pt;
+  word-spacing: 1pt;
+}
+
+.p1 {
+  margin-bottom: 28px;
+}
+
+.p2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/*sddddddddddd*/
+.featured_works_wrap {
+  width: 100%;
+  height: 1166px;
+  display: flex;
+  justify-content: center;
+  background-color:#ffffff;
+}
+
+.our_services_wrap {
+  width: 100%;
+  height: 1618px;
+  display: flex;
+  justify-content: center;
+  background-color:#f9fbfb;
+}
+
+.small_team_wrap {
+  width: 100%;
+  height: 1314px;
+  display: flex;
+  justify-content: center;
+  background-color:#ffffff;
+}
+
+.what_they_says_wrap {
+  width: 100%;
+  height: 923px;
+  display: flex;
+  justify-content: center;
+  background-color:#f9fbfb;
+}
+
+.logos_wrap {
+  width: 100%;
+  height: 387px;
+  display: flex;
+  justify-content: center;
+  background-color:#ffffff;
+}
 
 @media only screen and (min-width:1440px){
 
