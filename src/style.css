@@ -1,3 +1,128 @@
-h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+  margin: 0 auto;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #eff0f2;
+}
+
+.header {
+  width: 1440px;
+  height: 806px;
+  background-color: #eff0f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.shopno {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.logo {
+  display: flex;
+  width: 101px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid black;
+}
+
+.shopno_txt {
+  margin: 0 auto;
+  font-size: 13pt;
+  font-weight: 700;
+  margin-top: 1px;
+  letter-spacing: 0.1pt;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.o {
+  color: rgb(43, 168, 226);
+  font-size: 16pt;
+}
+
+.button_menu {
+  margin-right: 2px;
+  margin-top: 11px;
+}
+
+.img_menu {
+  width: 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 206px;
+  width: 995px;
+}
+
+.title_txt {
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  font-size: 34.5pt;
+  letter-spacing: 0.7pt;
+  color: rgba(80, 80, 80, 255);
+  text-align: center;
+  margin-top: -11px;
+  text-shadow: 6px 6px 7px rgba(202,203,205,0.7);
+}
+
+.marker {
+  background-color: #b2f2ee;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.button_contact {
+  margin-top: 140px;
+}
+
+.contact_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 228px;
+  height: 50px;
+  border: 2px solid #777879;
+  font-family: Montserrat;
+  font-size: 13pt;
+  letter-spacing: 2pt;
+  color: #606061;
+  text-align: left;
+}
+
+.img_juice {
+  margin-left: 880px;
+  margin-top: -25px;
+}
+
+
+@media only screen and (min-width:1440px){
+
+  .header {
+    width: 1440px;
+    /* background-color: red; */
+  }
+
+}
+
+@media only screen and (max-width:1440px){
+
+  .header {
+    width: 100%;
+    background-color: green;
+  }
+
 }
