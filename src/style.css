@@ -424,6 +424,12 @@ body {
   word-spacing: -2px;
 }
 
+.know_moreX {
+  margin-left: -15px;
+  margin-top: 70px;
+  width: 17px;
+}
+
 .know_more1 {
   margin-left: 3px;
   margin-top: 45px;
@@ -522,6 +528,102 @@ body {
   margin-top: 129px;
 }
 
+.team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1144px;
+  margin-top: 100px;
+}
+
+.team_photo {
+  margin-bottom: 13px;
+  width: 372px;
+  height: 443px;
+}
+.team_photo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13px;
+  width: 372px;
+  height: 443px;
+  background-image: url('./assets/team/2.png');
+}
+
+.team_message {
+  background: #6ff6eb;
+  width: 335px;
+  height: 241px;
+  margin-top: 170px;
+  position: relative;
+}
+.team_message::before {
+  content: '';
+  position: absolute;
+  left: 16px;
+  bottom: 231px;
+  border: 17px solid transparent;
+  border-bottom: 28px solid #6ff6eb;
+}
+
+.content_team_message {
+  margin-top: 43px;
+  margin-left: 38px;
+  width: 243px;
+}
+
+.about_team_name {
+  display: flex;
+  flex-direction: row;
+}
+
+.team_name1 {
+  margin: 0 auto;
+  margin-left: 1px;
+  margin-top: -5px;
+  word-spacing: 2px;
+  font-family: 'Merriweather';
+  font-size: 16pt;
+  color: #2c3a39;
+  text-align: center;
+}
+
+.job {
+  margin: 0 auto;
+  margin-left: -3px;
+  margin-top: 0px;
+  font-style: italic;
+  font-size: 11pt;
+  font-family: 'Merriweather';
+  color: #767978;
+}
+
+.team_message_p2, .team_message_p1 {
+  font-family: 'Raleway';
+  color: #225450;
+  word-spacing: 1.5px;
+  line-height: 24px;
+}
+
+.team_message_p1 {
+  margin-bottom: -17px;
+}
+
+.social_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+  width: 88px;
+}
+
+.social_logo {
+  height: 12px;
+}
+
+/*ddddddddd*/
 .titles_h3 {
   font-family: 'Montserrat';
   font-weight: 700;
