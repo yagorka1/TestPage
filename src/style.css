@@ -689,7 +689,28 @@ body {
   flex-direction: column;
   align-items:center;
   width: 1440px;
-  margin-top: 129px;
+  margin-top: 190px;
+}
+
+.logo_pic {
+
+}
+
+ .row2, .row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row1 {
+  width: 533px;
+  margin-left: 60px;
+}
+
+.row2 {
+  width: 1133px;
+  margin-top: 45px;
 }
 
 @media only screen and (min-width:1440px){
