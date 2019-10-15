@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+
   <title>Document</title>
 </head>
 <body>
@@ -280,10 +281,10 @@
                 </div>
               </section>
               <div class="arrows">
-                <div class="arrow">
+                <div class="arrow1">
                   <img src="./assets/next/left-arrow.svg" alt="arrow" class="arr">
                 </div>
-                <div class="arrow arr_right">
+                <div class="arrow1 arr_right">
                     <img src="./assets/next/right-arrow.svg" alt="arrow" class="arr ">
                 </div>
               </div>
@@ -314,8 +315,79 @@
     </main>
 
 
-    <footer class="wrap">
-      fff
+    <footer class="footer">
+      <!-- <section class="footer"> -->
+      <section class="connection_us_wrap">
+        <section class="connection_us">
+          <section class="connection_message">
+            <form action="" method="post" class="form1">
+              <label class="label_input" for="POST-name">Name*</label>
+              <input class="field_input" id="POST-name" type="text" name="name">
+
+              <label class="label_input" for="POST-Subject">Subject*</label>
+              <input class="field_input" id="POST-Subject" type="text" name="name">
+
+              <label class="label_input" for="POST-E-mail">E-mail*</label>
+              <input class="field_input" id="POST-E-mail" type="text" name="name">
+
+              <label class="label_input" for="POST-Message">Message*</label>
+              <input class="field_input field_input_message" id="POST-Message" type="text" name="name">
+
+              <input class="button_input" type="submit" value="SEND MESSAGE">
+            </form>
+          </section>
+          <section class="location">
+            <p class="address address1">Adress line 1</p>
+            <p class="address">Adress line 1</p>
+            <p class="address">Phone: +548 945645</p>
+            <p class="address address2">Fax: +456456 54546</p>
+            <p class="address">Web: www.designagency.net</p>
+            <p class="address address3">E-mail: info@designagency.net</p>
+            <div id="map"></div>
+          </section>
+        </section>
+      </section>
+      <section class="follow_us_wrap">
+        <!-- <section class="follow_us"> -->
+          <p class="follow_footer">FOLLOW US</p>
+          <div class="social_link">
+            <div class="wrap_social">
+              <img src="./assets/social_footer/pinterest.svg" class="social_logo_footer" alt="pinterest-logo">
+            </div>
+            <div class="wrap_social">
+              <img src="./assets/social_footer/twitter-black-shape.svg" class="social_logo_footer" alt="pinterest-logo">
+            </div>
+            <div class="wrap_social">
+              <img src="./assets/social_footer/facebook-logo.svg" class="social_logo_footer" alt="pinterest-logo">
+            </div>
+            <div class="wrap_social">
+              <img src="./assets/social_footer/dribbble.svg" class="social_logo_footer" alt="pinterest-logo">
+            </div>
+          </div>
+          <p class="copyright">Copyright Masum Parvej, All Rights Reserved</p>
+        <!-- </section> -->
+      </section>
+
+      <!-- </section> -->
     </footer>
+
+    <!--The div element for the map -->
+
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 53.8920966, lng: 27.5482666};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 10, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!-- <script src="index.js"></script> -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCnBlPsQyL-xXg-Sf-CfgaauzVOCximpM&callback=initMap">
+    </script>
 </body>
 </html>
