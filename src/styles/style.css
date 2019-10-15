@@ -226,10 +226,7 @@ body {
   word-spacing: 2pt;
   letter-spacing: 0.07pt;
   margin-top: -0px;
-  color: #5f6160
-}
-
-.h2_about_us{
+  color: #5f6160;
   margin-bottom: 18px;
 }
 
@@ -328,7 +325,6 @@ body {
   font-weight: 700;
   font-size: 27.5pt;
   color: #323333;
-  /* margin-left: 38px; */
   margin-top: -12px;
   letter-spacing: 2.2pt;
 }
@@ -520,6 +516,7 @@ body {
   justify-content: center;
   background-color:#ffffff;
 }
+
 .small_team {
   display: flex;
   flex-direction: column;
@@ -542,6 +539,7 @@ body {
   width: 372px;
   height: 443px;
 }
+
 .team_photo2 {
   display: flex;
   justify-content: center;
@@ -602,9 +600,10 @@ body {
 
 .team_message_p2, .team_message_p1 {
   font-family: 'Raleway';
+  font-size: 8pt;
   color: #225450;
-  word-spacing: 1.5px;
-  line-height: 24px;
+  word-spacing: 1px;
+  line-height: 14px;
 }
 
 .team_message_p1 {
@@ -999,6 +998,10 @@ body {
   background-color: #3f4244;
 }
 
+.footer {
+  height: 1020px;
+}
+
 .follow_footer {
   font-family: 'Raleway';
   font-size: 12pt;
@@ -1018,30 +1021,4 @@ body {
   font-family: 'Raleway';
   font-size: 12pt;
   color: #969798;
-}
-
-@media only screen and (min-width:1440px){
-
-  .header {
-    width: 1440px;
-    /* background-color: red; */
-  }
-  .about_us {
-    width: 1440px;
-    /* background-color: red; */
-  }
-
-}
-
-@media only screen and (max-width:1440px){
-
-  .header {
-    width: 100%;
-    background-color: green;
-  }
-  .about_us {
-    width: 100%;
-    background-color: green;
-  }
-
 }

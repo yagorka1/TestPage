@@ -1,0 +1,303 @@
+
+@media only screen and (max-width:480px){
+
+  .header {
+    width: 320px;
+  }
+
+  .title_txt {
+    font-size: 12pt;
+  }
+
+  .shopno {
+    width: 310px;
+  }
+
+  .marker {
+    margin-left: 0px;
+  }
+
+  .title {
+    width: 310px;
+  }
+
+  .main {
+    height: 10200px;
+  }
+
+  .about_us_content {
+    width: 320px;
+  }
+
+  .title_h1 {
+    font-size: 12pt;
+  }
+
+  .description {
+    font-size: 6pt;
+  }
+
+  .works {
+    width: 320px;
+  }
+
+  .about_us_content {
+    margin-top: 22px;
+    width: 320px;
+  }
+
+  .about_us_slides {
+    width: 320px;
+  }
+
+  .aa {
+    width: 320px;
+    overflow: hidden;
+  }
+
+  .apple_img {
+    width: 250px;
+  }
+  .apple_img1 {
+    width: 250px;
+  }
+
+  .gray_div {
+    height: 213px;
+  }
+
+  .choose_slides {
+    margin-top: 19px;
+    margin-left: 0px;
+  }
+
+  .h2_about_us {
+    font-size: 12pt;
+    margin-top: -0px;
+    margin-bottom: 18px;
+  }
+
+  .p_about {
+    font-size: 8pt;
+    line-height: 21pt;
+    word-spacing: 1pt;
+  }
+
+  .titles_h11 {
+    font-size: 12pt;
+  }
+
+  .descriptions1 {
+    font-size: 6pt;
+    margin-top: 0px;
+  }
+
+  .work_picture {
+   width: 300px;
+  }
+
+  .titles_h1 {
+    font-size: 12pt;
+  }
+
+  .descriptions2 {
+    font-size: 6pt;
+    margin-top: -12px;
+  }
+
+  .our_services_wrap {
+    height: 2800px;
+  }
+
+  .our_services {
+    width: 320px;
+  }
+
+  .services {
+    width: 320px;
+  }
+
+  .service_h2_design {
+    font-size: 11pt;
+  }
+
+  .service_p_design{
+    font-size: 8pt;
+  }
+  .description_service1 {
+    margin-left: 26px;
+    margin-top: 22px;
+  }
+
+  .description_service2 {
+    margin-left: 36px;
+    margin-top: 103px;
+    width: 70%;
+  }
+
+  .description_service3 {
+    margin-left: 35px;
+    margin-top: 82px;
+    width: 61%;
+  }
+
+  .description_service4 {
+    margin-left: 36px;
+    margin-top: 82px;
+    width: 67%;
+  }
+
+  .description_service5 {
+    margin-left: 35px;
+    margin-top: 48px;
+    width: 59%;
+  }
+  .description_service6 {
+    margin-left: 40px;
+    margin-top: 48px;
+    width: 60%;
+  }
+
+  .service_h2 {
+    font-size: 10pt;
+  }
+
+  .service_p, .p_add{
+    font-size: 8pt;
+  }
+
+  .small_team_wrap {
+    height: 3100px;
+  }
+
+  .small_team {
+    width: 320px;
+  }
+
+  .titles_h3 {
+    font-size: 11pt;
+  }
+
+  .descriptions3 {
+    font-size: 6pt;
+    margin-top: -10px;
+  }
+
+  .team {
+    width: 320px;
+  }
+
+  .team_photo {
+    width: 320px;
+  }
+
+  .team_message {
+    background: #6ff6eb;
+    width: 270px;
+    height: 241px;
+    margin-top: 170px;
+    position: relative;
+  }
+
+  .content_team_message {
+    width: 243px;
+  }
+
+  .team_name1 {
+    font-size: 11pt;
+  }
+
+  .job {
+    font-size: 8pt;
+  }
+
+  .team_message_p2, .team_message_p1 {
+    font-family: 'Raleway';
+    color: #225450;
+    word-spacing: 1.5px;
+    line-height: 24px;
+  }
+
+  .what_they_says_wrap {
+    height: 1323px;
+  }
+
+  .titles_h4 {
+    font-size: 12pt;
+    margin-top: -105px;
+  }
+
+  .descriptions4 {
+    font-size: 6pt;
+    margin-top: 0px;
+  }
+
+  .review {
+    width: 320px;
+    margin-top: 26px;
+
+  }
+
+  .review_content {
+    margin-top: 50px;
+    width: 320px;
+  }
+
+  /* .connection_us {
+    width: 480px;
+  } */
+
+  .logos_wrap {
+    display: none;
+  }
+
+  .connection_message {
+    width: 320px;
+  }
+
+  .location {
+    width: 310px;
+  }
+
+  #map {
+  width: 290px;
+  height: 204px;
+  margin-left: 10px;
+}
+
+  .footer {
+    height: 1500px;
+  }
+
+  .follow_footer {
+    font-size: 10pt;
+  }
+
+  .copyright {
+    font-size: 8pt;
+  }
+
+  .apple_img12 {
+    width: 270px;
+  }
+
+  .people_img {
+    width: 270px;
+  }
+
+  .gray_div2 {
+    height: 300px;
+    width: 30px;
+    margin-top: 25px;
+  }
+
+  .aa2 {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+  }
+
+  .about_us_slides2 {
+   width: 320px;
+  }
+}
