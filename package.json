@@ -2,7 +2,7 @@
   "name": "TestPage",
   "version": "0.0.1",
   "description": "Initial project template for TestPage",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/",
     "dev": "webpack-dev-server --node development --watch",
@@ -32,5 +32,8 @@
     "webpack": "^4.41.1",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "extract-text-webpack-plugin": "^3.0.2"
   }
 }

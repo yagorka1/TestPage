@@ -32,6 +32,10 @@ a {
 
 }
 
+.hidd {
+  visibility: hidden;
+}
+
 .shopno {
   width: 1140px;
   display: flex;
@@ -549,7 +553,7 @@ a {
   height: 443px;
 }
 
-.team_photo2 {
+.team_photo_class {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -557,6 +561,28 @@ a {
   width: 372px;
   height: 443px;
   background-image: url('../assets/team/2.png');
+}
+
+.team_photo1 {
+  background-image: url('../assets/team/1.png');
+}
+
+.team_photo2 {
+  background-image: url('../assets/team/2.png');
+}
+.team_photo3 {
+  background-image: url('../assets/team/3.png');
+}
+
+.team_photo4 {
+  background-image: url('../assets/team/4.png');
+}
+.team_photo5 {
+  background-image: url('../assets/team/5.png');
+}
+
+.team_photo6 {
+  background-image: url('../assets/team/6.png');
 }
 
 .team_message {
