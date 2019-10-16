@@ -158,6 +158,13 @@
     width: 60%;
   }
 
+  .team_message_p2, .team_message_p1 {
+    font-family: 'Raleway';
+    font-size: 8pt;
+    color: #225450;
+    word-spacing: 1px;
+    line-height: 14px;
+  }
   .service_h2 {
     font-size: 10pt;
   }

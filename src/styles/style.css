@@ -6,6 +6,15 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+.hov:hover {
+  cursor: pointer;
+  background-color: #6eeee4;
+}
+
 .wrap {
   width: 100%;
   display: flex;
@@ -364,12 +373,12 @@ body {
 .service2 {
   width: 474px;
   height: 423px;
-  background-image: url('./assets/service/2.png');
+  background-image: url('../assets/service/2.png');
 }
 .service3 {
   width: 653px;
   height: 372px;
-  background-image: url('./assets/service/3.png');
+  background-image: url('../assets/service/3.png');
 }
 
 .back {
@@ -388,17 +397,17 @@ body {
 .service4 {
   width: 475px;
   height: 372px;
-  background-image: url('./assets/service/4.png');
+  background-image: url('../assets/service/4.png');
 }
 .service5 {
   width: 475px;
   height: 372px;
-  background-image: url('./assets/service/5.png');
+  background-image: url('../assets/service/5.png');
 }
 .service6 {
   width: 653px;
   height: 372px;
-  background-image: url('./assets/service/6.png');
+  background-image: url('../assets/service/6.png');
 }
 
 .description_service1 {
@@ -547,7 +556,7 @@ body {
   margin-bottom: 13px;
   width: 372px;
   height: 443px;
-  background-image: url('./assets/team/2.png');
+  background-image: url('../assets/team/2.png');
 }
 
 .team_message {
@@ -600,10 +609,10 @@ body {
 
 .team_message_p2, .team_message_p1 {
   font-family: 'Raleway';
-  font-size: 8pt;
+  font-size: 12pt;
   color: #225450;
   word-spacing: 1px;
-  line-height: 14px;
+  line-height: 25px;
 }
 
 .team_message_p1 {
@@ -614,7 +623,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 35px;
+  margin-top: 32px;
   width: 88px;
 }
 
@@ -880,7 +889,7 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 1440px;
-  background-image: url('./assets/pic_footer.png')
+  background-image: url('../assets/pic_footer.png')
 }
 
 .connection_message {
@@ -949,7 +958,7 @@ body {
 .button_input {
   width: 244px;
   height: 53px;
-  background-color: #6eeee4;
+  background-color: #b3ecf0;
   border: 0px;
   border-radius: 2px;
   margin-top: 10px;
@@ -996,6 +1005,10 @@ body {
   height: 40px;
   width: 46px;
   background-color: #3f4244;
+}
+
+.wrap_social:hover {
+  background-color: #6eeee4;
 }
 
 .footer {
