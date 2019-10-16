@@ -203,6 +203,10 @@ a {
   box-shadow:  0px 0px 30px 10px #EBECED;
 }
 
+.apple_img4 {
+  display: none;
+}
+
 .gray_div {
   height: 413px;
   width: 44px;
@@ -219,7 +223,7 @@ a {
   margin-left: -37px;
 }
 
-.square {
+.square1 {
   width: 9px;
   height: 9px;
   border-radius: 3px;
@@ -229,6 +233,11 @@ a {
 .chosen_sq {
   background-color: #71F6EB;
 }
+
+/* #ccc {
+  background-color: red;
+} */
+
 .description_about_us {
   width: 474px;
 }
@@ -377,12 +386,15 @@ a {
 .service2 {
   width: 474px;
   height: 423px;
-  background-image: url('../assets/service/2.png');
+  background-image: url('./assets/service/2.png');
+}
+.hide_back {
+  background-color: #71f5ea;
 }
 .service3 {
   width: 653px;
   height: 372px;
-  background-image: url('../assets/service/3.png');
+  background-image: url('./assets/service/3.png');
 }
 
 .back {
@@ -401,17 +413,17 @@ a {
 .service4 {
   width: 475px;
   height: 372px;
-  background-image: url('../assets/service/4.png');
+  background-image: url('./assets/service/4.png');
 }
 .service5 {
   width: 475px;
   height: 372px;
-  background-image: url('../assets/service/5.png');
+  background-image: url('./assets/service/5.png');
 }
 .service6 {
   width: 653px;
   height: 372px;
-  background-image: url('../assets/service/6.png');
+  background-image: url('./assets/service/6.png');
 }
 
 .description_service1 {
@@ -454,7 +466,10 @@ a {
 .arrow {
   width: 22px;
   margin-left: 17px;
+}
 
+.arrow:hover {
+  cursor: pointer;
 }
 
 .service_h2_design {
@@ -560,29 +575,37 @@ a {
   margin-bottom: 13px;
   width: 372px;
   height: 443px;
-  background-image: url('../assets/team/2.png');
+  background-image: url('./assets/team/2.png');
+}
+
+.team_photo_class:hover {
+  cursor: pointer;
+  width: 368px;
+  height: 439px;
+  border: 2px solid black;
+
 }
 
 .team_photo1 {
-  background-image: url('../assets/team/1.png');
+  background-image: url('./assets/team/1.png');
 }
 
 .team_photo2 {
-  background-image: url('../assets/team/2.png');
+  background-image: url('./assets/team/2.png');
 }
 .team_photo3 {
-  background-image: url('../assets/team/3.png');
+  background-image: url('./assets/team/3.png');
 }
 
 .team_photo4 {
-  background-image: url('../assets/team/4.png');
+  background-image: url('./assets/team/4.png');
 }
 .team_photo5 {
-  background-image: url('../assets/team/5.png');
+  background-image: url('./assets/team/5.png');
 }
 
 .team_photo6 {
-  background-image: url('../assets/team/6.png');
+  background-image: url('./assets/team/6.png');
 }
 
 .team_message {
@@ -696,7 +719,6 @@ a {
   display: flex;
   flex-direction: row;
   width: 1141px;
-  /* background-color: red; */
   margin-top: 114px;
   justify-content: space-between;
 }
@@ -726,6 +748,30 @@ a {
   width: 322px;
 }
 
+#slides {
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  left: -7px;
+  top: 0px;
+  /* width: 100%;
+  height: 100%; */
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+
 .gray_div2 {
   height: 362px;
   width: 44px;
@@ -747,6 +793,14 @@ a {
   height: 10px;
   border-radius: 3px;
   background-color: #D0D0D0;
+}
+
+.square:hover {
+  background-color: #e36eee;
+  cursor: pointer;
+}
+.square_ch {
+  background-color: #6eeee4;
 }
 
 .review {
@@ -833,6 +887,11 @@ a {
   width: 15px;
 }
 
+.arrow1:hover {
+  cursor: pointer;
+  background-color: #71f6eb;
+}
+
 .arr_right {
   margin-left: 25px;
 }
@@ -915,7 +974,7 @@ a {
   flex-direction: row;
   justify-content: center;
   width: 1440px;
-  background-image: url('../assets/pic_footer.png')
+  background-image: url('./assets/pic_footer.png')
 }
 
 .connection_message {
@@ -1013,10 +1072,6 @@ a {
   align-items: center;
 }
 
-.follow_us {
-
-}
-
 .social_link {
   display: flex;
   flex-direction: row;
@@ -1061,3 +1116,4 @@ a {
   font-size: 12pt;
   color: #969798;
 }
+
