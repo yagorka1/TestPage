@@ -96,6 +96,10 @@
    width: 300px;
   }
 
+  .big_photo {
+    width: 600px;
+  }
+
   .titles_h1 {
     font-size: 12pt;
   }

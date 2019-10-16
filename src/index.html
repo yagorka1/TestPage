@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./styles/800px.css">
   <link rel="stylesheet" href="./styles/480px.css">
   <link rel="stylesheet" href="./styles/320px.css">
+  <link rel="stylesheet" href="lightzoom/style.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
   <script src="index.js"></script>
   <title>Document</title>
@@ -98,12 +100,24 @@
           <h1 class="titles_h11">FEATURED WORKS</h1>
           <p class="descriptions1">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
           <sections class="works">
-            <img src="./assets/feature_works/1.png" alt="photo" class="work_picture">
-            <img src="./assets/feature_works/2.png" alt="photo" class="work_picture">
-            <img src="./assets/feature_works/3.png" alt="photo" class="work_picture">
-            <img src="./assets/feature_works/4.png" alt="photo" class="work_picture">
-            <img src="./assets/feature_works/5.png" alt="photo" class="work_picture">
+            <a href="./assets/feature_works/1_2.jpg" class="lightzoom">
+              <img src="./assets/feature_works/1.png" alt="photo" class="work_picture">
+            </a>
+            <a href="./assets/feature_works/2_2.jpg" class="lightzoom">
+              <img src="./assets/feature_works/2.png" alt="photo" class="work_picture">
+            </a>
+            <a href="./assets/feature_works/3_2.jpg" class="lightzoom" class="big_photo">
+              <img src="./assets/feature_works/3.png" alt="photo" class="work_picture">
+            </a>
+            <a href="./assets/feature_works/4_2.jpg" class="lightzoom">
+              <img src="./assets/feature_works/4.png" alt="photo" class="work_picture">
+            </a>
+            <a href="./assets/feature_works/5_2.jpg" class="lightzoom">
+              <img src="./assets/feature_works/5.png" alt="photo" class="work_picture">
+            </a>
+          <a href="./assets/feature_works/6_2.jpg" class="lightzoom">
             <img src="./assets/feature_works/6.png" alt="photo" class="work_picture">
+            </a>
           </sections>
 
         </section>
@@ -398,9 +412,9 @@ function initMap() {
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
     </script>
-    <!-- <script src="index.js"></script> -->
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCnBlPsQyL-xXg-Sf-CfgaauzVOCximpM&callback=initMap">
     </script>
-</body>
+    <script src="js/lightzoom.js"></script>
+  </body>
 </html>
