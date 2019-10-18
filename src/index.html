@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./increase_img.css">
   <link rel="stylesheet" href="./styles/800px.css">
   <link rel="stylesheet" href="./styles/480px.css">
   <link rel="stylesheet" href="./styles/320px.css">
-  <link rel="stylesheet" href="lightzoom/style.css" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="index.js" defer></script>
+  <script src="increase_img.js" defer></script>
   <title>Document</title>
 </head>
 <body>
@@ -44,7 +45,7 @@
     <main class="main">
       <section class="about_us_wrap">
         <section class="about_us">
-          <h1 class=" title_h1">ABOUT US</h1>
+          <h2 class=" title_h1">ABOUT US</h2>
           <p class="description">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
           <section class="about_us_content">
             <section class="about_us_slides">
@@ -59,7 +60,7 @@
                 <div class="gray_div"></div>
               </div>
               <div class="choose_slides">
-                  <div class="square square6"></div>
+                  <div class="square square6 square_ch"></div>
                   <div class="square square7"></div>
                   <div class="square square8"></div>
                   <div class="square square9"></div>
@@ -88,57 +89,56 @@
                     The preceding aircraft in approach correct sight.
                 </p>
             </section>
-
           </section>
         </section>
       </section>
       <section class="featured_works_wrap">
         <section class="featured_works">
-          <h1 class="titles_h11">FEATURED WORKS</h1>
+          <h2 class="titles_h11">FEATURED WORKS</h2>
           <p class="descriptions1">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
           <section class="works">
-            <a href="./assets/feature_works/1_2.jpg" class="lightzoom">
-              <img src="./assets/feature_works/1.png" alt="photo" class="work_picture">
-            </a>
-            <a href="./assets/feature_works/2_2.jpg" class="lightzoom">
-              <img src="./assets/feature_works/2.png" alt="photo" class="work_picture">
-            </a>
-            <a href="./assets/feature_works/3_2.jpg" class="lightzoom big_photo" >
-              <img src="./assets/feature_works/3.png" alt="photo" class="work_picture">
-            </a>
-            <a href="./assets/feature_works/4_2.jpg" class="lightzoom">
-              <img src="./assets/feature_works/4.png" alt="photo" class="work_picture">
-            </a>
-            <a href="./assets/feature_works/5_2.jpg" class="lightzoom">
-              <img src="./assets/feature_works/5.png" alt="photo" class="work_picture">
-            </a>
-          <a href="./assets/feature_works/6_2.jpg" class="lightzoom">
-            <img src="./assets/feature_works/6.png" alt="photo" class="work_picture">
-            </a>
+            <img src="./assets/feature_works/1_2.jpg" alt="photo" class="work_picture image">
+            <img src="./assets/feature_works/2_2.jpg" alt="photo" class="work_picture image">
+            <img src="./assets/feature_works/3_2.jpg" alt="photo" class="work_picture image">
+            <img src="./assets/feature_works/4_2.jpg" alt="photo" class="work_picture image">
+            <img src="./assets/feature_works/5_2.jpg" alt="photo" class="work_picture image">
+            <img src="./assets/feature_works/6_2.jpg" alt="photo" class="work_picture image">
           </section>
-
         </section>
       </section>
       <section class="our_services_wrap">
         <section class="our_services">
-          <h1 class="titles_h1">OUR SERVICES</h1>
+          <h2 class="titles_h1">OUR SERVICES</h2>
           <p class="descriptions2">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
           <section class="services">
             <section class="service service1">
-              <div class="description_service1">
-                <h2 class="service_h2_design">DESIGNING IS THE COOL LOVE FOR.</h2>
-                <p class="service_p_design">
-                  Our most popular service is our Virtual Receptionist. We know that sometimes
-                  it's something and you middle most this job was posted less than five minutes
-                  ago, and we think it's good match for you. If you submit a proposal now, you'll
-                  be one of the first candidates. You may even catch the client while there're
-                  still online.
-                </p>
-                <div class="know_more know_moreX">
-                  <img src="./assets/X.png" alt="arrow" class="arrow">
+                <div class="back">
+                  <div class="description_service1">
+                      <h2 class="service_h2">DESIGNING IS THE COOL</h2>
+                      <p class="service_p">
+                          Our most popular service is our Virtual Receptionist. We know that sometimes
+                          it's something and you middle most this job was posted less than five minutes....
+                      </p>
+                      <div class="know_more">
+                        KNOW MORE
+                        <img src="./assets/right-arrow.svg" alt="arrow" class="arrow">
+                      </div>
+                  </div>
+                  <div class="description_service1 apple_img4">
+                      <h2 class="service_h2 margin_top_know_more">DESIGNING IS THE COOL</h2>
+                      <p class="service_p service_p_height">
+                          Our most popular service is our Virtual Receptionist. We know that sometimes
+                        it's something and you middle most this job was posted less than five minutes
+                        ago, and we think it's good match for you. If you submit a proposal now, you'll
+                        be one of the first candidates. You may even catch the client while there're
+                        still online.
+                      </p>
+                      <div class="know_more know_moreX">
+                        <img src="./assets/X.png" alt="arrow" class="arrow">
+                      </div>
+                  </div>
                 </div>
-              </div>
-            </section>
+              </section>
             <section class="service service2">
               <div class="back">
                 <div class="description_service2">
@@ -148,22 +148,50 @@
                     middle most..
                   </p>
                   <div class="know_more">
-                      KNOW MORE
-                      <img src="./assets/right-arrow.svg" alt="arrow" class="arrow" id="arrow5">
+                      <p class="">KNOW MORE</p>
+                      <img src="./assets/right-arrow.svg" alt="arrow" class="arrow">
                   </div>
                 </div>
+                <div class="description_service2 apple_img4">
+                    <h2 class="service_h2  margin_top_know_more">COOL PSD DESIGN</h2>
+                    <p class="service_p service_p_height">
+                      Our most popular service is our we know that sometimes it's something and you
+                      middle most.
+                      Our most popular service is our we know that sometimes it's something and you
+                      middle most.
+                      Our most popular service is our we know that sometimes it's something and you
+                      middle most.
+                    </p>
+                    <div class="know_more know_moreX">
+                        <p class="dscr_but"></p>
+                      <img src="./assets/X.png" alt="arrow" class="arrow chk1">
+                    </div>
+                  </div>
               </div>
             </section>
             <section class="service service3">
               <div class="back">
                 <div class="description_service3">
-                    <h2 class="service_h2">DESIGNING IS THE COOL</h2>
+                    <h2 class="service_h2 ">DESIGNING IS THE COOL</h2>
                     <p class="service_p">
                         Our most popular service is our Virtual Receptionist. We know that...
                     </p>
-                    <div class="know_more know_more1">
+                    <div class="know_more">
                       KNOW MORE
                       <img src="./assets/right-arrow.svg" alt="arrow" class="arrow">
+                    </div>
+                </div>
+                <div class="description_service3 apple_img4">
+                    <h2 class="service_h2 margin_top_know_more">DESIGNING IS THE COOL LOVE </h2>
+                    <p class="service_p service_p_height1">
+                        Our most popular service is our Virtual Receptionist. We know that
+                        Our most popular service is our Virtual Receptionist. We know that
+                        Our most popular service is our Virtual Receptionist. We know that
+                        Our most popular service is our Virtual Receptionist. We know that
+                        Our most popular service is our Virtual Receptionist. We know that
+                    </p>
+                    <div class="know_more know_moreX">
+                      <img src="./assets/X.png" alt="arrow" class="arrow">
                     </div>
                 </div>
               </div>
@@ -176,9 +204,22 @@
                     We know that sometimes it's something and you
                     middle most..
                   </p>
-                  <div class="know_more know_more1">
+                  <div class="know_more">
                     KNOW MORE
                     <img src="./assets/right-arrow.svg" alt="arrow" class="arrow">
+                  </div>
+                </div>
+                <div class="description_service4 apple_img4">
+                  <h2 class="service_h2 margin_top_know_more">PSD TO HTML KORI</h2>
+                  <p class="service_p service_p_height1">
+                    We know that sometimes it's something and you
+                    middle most.We know that sometimes it's something and you
+                    middle most.We know that sometimes it's something and you
+                    middle most.We know that sometimes it's something and you
+
+                  </p>
+                  <div class="know_more know_moreX">
+                    <img src="./assets/X.png" alt="arrow" class="arrow">
                   </div>
                 </div>
               </div>
@@ -190,11 +231,24 @@
                   <p class="service_p">
                       Our most popular service is our new virtual Receptionist you middle most..
                   </p>
-                  <div class="know_more know_more2">
+                  <div class="know_more">
                     KNOW MORE
                     <img src="./assets/right-arrow.svg" alt="arrow" class="arrow">
                   </div>
                 </div>
+                <div class="description_service5 apple_img4">
+                    <h2 class="service_h2 margin_top_know_more1">COOL PSD DESIGN</h2>
+                    <p class="service_p service_p_height1">
+                        Our most popular service is our new virtual Receptionist you middle most
+                        Our most popular service is our new virtual Receptionist you middle most
+                        Our most popular service is our new virtual Receptionist you middle most
+                        Our most popular service is our new virtual Receptionist you middle most
+                        Our most popular service is our new virtual Receptionist you middle most
+                    </p>
+                    <div class="know_more know_moreX1">
+                      <img src="./assets/X.png" alt="arrow" class="arrow">
+                    </div>
+                  </div>
               </div>
             </section>
             <section class="service service6">
@@ -202,16 +256,33 @@
                 <div class="description_service6">
                   <h2 class="service_h2">DESIGNING IS THE COOL FOR</h2>
                   <p class="service_p">
-                    Our most popular service is Virtual Receptionist
-                    <p class="p_add">
                     We know that sometimes it's something and you
                     middle most..
                     </p>
-                    <div class="know_more know_more2">
+                    <div class="know_more">
                       KNOW MORE
                       <img src="./assets/right-arrow.svg" alt="arrow" class="arrow">
                     </div>
-                  </p>
+                </div>
+                <div class="description_service6 apple_img4">
+                  <h2 class="service_h2 margin_top_know_more1">DESIGNING IS THE COOL FOR</h2>
+                  <p class="service_p service_p_height2">
+                    Our most popular service is Virtual Receptionist
+                    We know that sometimes it's something and you
+                    middle most.We know that sometimes it's something and you
+                    middle most.We know that sometimes it's something and you
+                    middle most.We know that sometimes it's something and you
+                    middle most.
+                    middle most.We know that sometimes it's something and you
+                    middle most.
+                    middle most.We know that sometimes it's something and you
+                    middle most.
+                    middle most.We know that sometimes it's something and you
+                    middle most.
+                    </p>
+                    <div class="know_more know_moreX1">
+                      <img src="./assets/X.png" alt="arrow" class="arrow">
+                    </div>
                 </div>
               </div>
             </section>
@@ -220,12 +291,13 @@
       </section>
       <section class="small_team_wrap">
         <section class="small_team">
-          <h1 class="titles_h3">SMALL TEAM</h1>
+          <h2 class="titles_h3">SMALL TEAM</h2>
           <p class="descriptions3">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
           <section class="team">
 
             <div class="team_photo_class team_photo1">
               <div class="team_message team_message1">
+
                 <div class="content_team_message">
                   <div class="about_team_name">
                     <h2 class="team_name1">AL RAYHAN</h2>
@@ -398,7 +470,7 @@
 
       <section class="what_they_says_wrap">
         <section class="what_they_says">
-          <h1 class="titles_h4">WHAT THEY SAYS</h1>
+          <h4 class="titles_h4">WHAT THEY SAYS</h4>
           <p class="descriptions4">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
           <section class='what_they_says_content'>
             <section class="about_us_slides2">
@@ -413,10 +485,10 @@
                 <div class="gray_div2"></div>
               </div>
               <div class="choose_slides1">
-                <div class="square1 chosen_sq"></div>
-                <div class="square1"></div>
-                <div class="square1"></div>
-                <div class="square1"></div>
+                <div class="square1 chosen_sq sq1"></div>
+                <div class="square1 sq2"></div>
+                <div class="square1 sq3"></div>
+                <div class="square1 sq4"></div>
               </div>
             </section>
             <section class="review">
@@ -455,17 +527,17 @@
       <section class="logos_wrap">
         <section class="logos">
           <div class="row1">
-          <img src="./assets/logo/1.png" alt="logo" class="logo_pic">
-          <img src="./assets/logo/2.png" alt="logo" class="logo_pic">
-          <img src="./assets/logo/3.png" alt="logo" class="logo_pic">
+          <img src="./assets/logo/1.jpg" alt="logo" class="logo_pic">
+          <img src="./assets/logo/2.jpg" alt="logo" class="logo_pic">
+          <img src="./assets/logo/3.jpg" alt="logo" class="logo_pic third">
           </div>
           <div class="row2">
-              <img src="./assets/logo/4.png" alt="logo" class="logo_pic">
-              <img src="./assets/logo/5.png" alt="logo" class="logo_pic">
-              <img src="./assets/logo/6.png" alt="logo" class="logo_pic">
-              <img src="./assets/logo/2.png" alt="logo" class="logo_pic">
-              <img src="./assets/logo/3.png" alt="logo" class="logo_pic">
-              <img src="./assets/logo/1.png" alt="logo" class="logo_pic">
+              <img src="./assets/logo/4.jpg" alt="logo" class="logo_pic">
+              <img src="./assets/logo/5.jpg" alt="logo" class="logo_pic swan">
+              <img src="./assets/logo/6.jpg" alt="logo" class="logo_pic">
+              <img src="./assets/logo/2.jpg" alt="logo" class="logo_pic">
+              <img src="./assets/logo/3.jpg" alt="logo" class="logo_pic">
+              <img src="./assets/logo/1.jpg" alt="logo" class="logo_pic">
           </div>
         </section>
       </section>
@@ -473,22 +545,24 @@
 
     <footer class="footer">
       <section class="connection_us_wrap" >
-        <a name="here"></a>
+        <a id="here"></a>
         <section class="connection_us">
           <section class="connection_message">
             <form action="index.js" method="post" class="form1">
-              <label class="label_input" for="POST-name">Name*</label>
-              <input class="field_input" id="POST-name" type="text" name="name">
-
-              <label class="label_input" for="POST-Subject">Subject*</label>
-              <input class="field_input" id="POST-Subject" type="text" name="name">
-
-              <label class="label_input" for="POST-E-mail">E-mail*</label>
-              <input class="field_input" id="POST-E-mail" type="text" name="name">
-
-              <label class="label_input" for="POST-Message">Message*</label>
-              <input class="field_input field_input_message" id="POST-Message" type="text" name="name">
-
+              <div class="wrap_input">
+                  <label class="label_input" for="POST-name">Name*</label>
+                  <input class="field_input" id="POST-name" type="text" name="name">
+              </div>
+              <div class="wrap_input">
+                <label class="label_input" for="POST-Subject">Subject*</label>
+                <input class="field_input" id="POST-Subject" type="text" name="name">
+              </div>
+              <div class="wrap_input">
+                <label class="label_input" for="POST-E-mail">E-mail*</label>
+                <input class="field_input" id="POST-E-mail" type="text" name="name">
+              </div>
+                <label class="label_input" for="POST-Message">Message*</label>
+                <input class="field_input field_input_message" id="POST-Message" type="text" name="name">
               <input class="button_input hov" type="submit" value="SEND MESSAGE">
             </form>
           </section>
@@ -525,8 +599,7 @@
     <script src="./map.js">
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCnBlPsQyL-xXg-Sf-CfgaauzVOCximpM&callback=initMap">
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCnBlPsQyL-xXg-Sf-CfgaauzVOCximpM&callback=initMap">
     </script>
-    <script src="js/lightzoom.js"></script>
   </body>
 </html>

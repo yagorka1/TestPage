@@ -23,15 +23,10 @@
 
   .main {
     width: 100%;
-    height: 10000px;
   }
 
   .about_us {
     width: 100%;
-  }
-
-  .about_us_wrap {
-    height: 1005px;
   }
 
   .about_us_content {
@@ -55,12 +50,53 @@
 
   .description_about_us {
     margin-top: 30px;
-    padding-left: 5px;
-    width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 290px;
   }
 
-  .featured_works_wrap {
-    height: 2000px;
+  .service {
+    width: 480px;
+  }
+
+  .description_service1 {
+    margin-left: 26px;
+    margin-top: 140px;
+  }
+
+  .description_service2 {
+    margin-left: 36px;
+    margin-top: 132px;
+    width: 60%;
+  }
+
+  .description_service3 {
+    margin-left: 35px;
+    margin-top: 135px;
+    width: 61%;
+  }
+
+  .description_service4 {
+    margin-left: 36px;
+    margin-top: 135px;
+    width: 60%;
+  }
+
+  .description_service5 {
+    margin-left: 35px;
+    margin-top: 135px;
+    width: 60%;
+  }
+
+  .description_service5 {
+    margin-left: 35px;
+    margin-top: 135px;
+    width: 60%;
+  }
+
+
+  .featured_works {
+    margin-top: 0px;
   }
 
   .works {
@@ -69,6 +105,7 @@
 
   .titles_h11 {
     font-size: 21pt;
+
   }
 
   .descriptions1 {
@@ -85,20 +122,12 @@
     margin-top: -12px;
   }
 
-  .our_services_wrap {
-    height: 2600px;
-  }
-
   .our_services {
     width: 480px;
   }
 
   .services {
     width: 480px;
-  }
-
-  .small_team_wrap {
-    height: 3100px;
   }
 
   .small_team {
@@ -118,13 +147,8 @@
     width: 480px;
   }
 
-  .what_they_says_wrap {
-    height: 1323px;
-  }
-
   .titles_h4 {
     font-size: 21pt;
-    margin-top: -85px;
   }
 
   .descriptions4 {
@@ -135,7 +159,6 @@
   .review {
     width: 470px;
     margin-top: 26px;
-
   }
 
   .review_content {
@@ -143,12 +166,12 @@
     width: 470px;
   }
 
-  /* .connection_us {
-    width: 480px;
-  } */
-
   .logos_wrap {
-    display: none;
+    /* //display: none; */
+  }
+
+  .row2, .row1 {
+    width: 480px;
   }
 
   .connection_message {
@@ -164,10 +187,6 @@
   height: 204px;
   margin-left: 10px;
 }
-
-  .footer {
-    height: 1500px;
-  }
 
   .connection_message {
     margin-right: 0px;

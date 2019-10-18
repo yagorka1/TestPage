@@ -4,6 +4,5 @@ function initMap() {
   const map = new window.google.maps.Map(
     document.getElementById('map'), { zoom: 10, center: uluru },
   );
-  // eslint-disable-next-line no-unused-vars
   const marker = new window.google.maps.Marker({ position: uluru, map });
 }

@@ -21,10 +21,6 @@
     width: 310px;
   }
 
-  .main {
-    height: 10200px;
-  }
-
   .about_us_content {
     width: 320px;
   }
@@ -81,6 +77,7 @@
     font-size: 8pt;
     line-height: 21pt;
     word-spacing: 1pt;
+    width: 290px;
   }
 
   .titles_h11 {
@@ -109,10 +106,6 @@
     margin-top: -12px;
   }
 
-  .our_services_wrap {
-    height: 2800px;
-  }
-
   .our_services {
     width: 320px;
   }
@@ -135,30 +128,30 @@
 
   .description_service2 {
     margin-left: 36px;
-    margin-top: 103px;
+    margin-top: 22px;
     width: 70%;
   }
 
   .description_service3 {
     margin-left: 35px;
-    margin-top: 82px;
+    margin-top: 22px;
     width: 61%;
   }
 
   .description_service4 {
     margin-left: 36px;
-    margin-top: 82px;
+    margin-top: 22px;
     width: 67%;
   }
 
   .description_service5 {
     margin-left: 35px;
-    margin-top: 48px;
+    margin-top: 22px;
     width: 59%;
   }
   .description_service6 {
     margin-left: 40px;
-    margin-top: 48px;
+    margin-top: 22px;
     width: 60%;
   }
 
@@ -171,14 +164,11 @@
   }
   .service_h2 {
     font-size: 10pt;
+    margin-top: 20px;
   }
 
   .service_p, .p_add{
     font-size: 8pt;
-  }
-
-  .small_team_wrap {
-    height: 3100px;
   }
 
   .small_team {
@@ -187,11 +177,12 @@
 
   .titles_h3 {
     font-size: 11pt;
+
   }
 
   .descriptions3 {
     font-size: 6pt;
-    margin-top: -10px;
+    margin-top: 30px;
   }
 
   .team {
@@ -229,13 +220,8 @@
     line-height: 24px;
   }
 
-  .what_they_says_wrap {
-    height: 1323px;
-  }
-
   .titles_h4 {
     font-size: 12pt;
-    margin-top: -105px;
   }
 
   .descriptions4 {
@@ -254,14 +240,6 @@
     width: 320px;
   }
 
-  /* .connection_us {
-    width: 480px;
-  } */
-
-  .logos_wrap {
-    display: none;
-  }
-
   .connection_message {
     width: 320px;
   }
@@ -274,11 +252,21 @@
   width: 290px;
   height: 204px;
   margin-left: 10px;
+
 }
 
-  .footer {
-    height: 1500px;
-  }
+.logos_wrap {
+  height: 500px;
+}
+
+.row2, .row1 {
+  width: 320px;
+}
+
+.third {
+  margin-left: 85px;
+  margin-top: 25px;
+}
 
   .follow_footer {
     font-size: 10pt;
