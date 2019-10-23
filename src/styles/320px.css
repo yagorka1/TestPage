@@ -280,7 +280,7 @@
     font-size: 8pt;
   }
 
-  .apple_img12 {
+  .pic_size {
     width: 270px;
   }
 
@@ -302,7 +302,6 @@
 
   .about_us_slides2 {
    width: 320px;
-   /* overflow: hidden; */
   }
 
   .team_text {
