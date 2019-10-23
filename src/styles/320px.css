@@ -259,6 +259,10 @@
   height: 500px;
 }
 
+.logo_item {
+  margin-bottom: 25px;
+}
+
 .row2, .row1 {
   width: 320px;
 }
@@ -298,5 +302,11 @@
 
   .about_us_slides2 {
    width: 320px;
+   /* overflow: hidden; */
+  }
+
+  .team_text {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }

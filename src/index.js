@@ -1,4 +1,6 @@
 /* eslint-disable space-before-blocks */
+
+
 document.querySelector('.team_message1').classList.add('hidd');
 document.querySelector('.team_message2').classList.add('hidd');
 document.querySelector('.team_message3').classList.add('hidd');
@@ -43,56 +45,62 @@ const sq = document.querySelectorAll('.square1');
 let currentSlide = 0;
 
 document.getElementById('prev').onclick = function nextSlide() {
-  slides[currentSlide].className = 'slide';
+  slides[currentSlide].className = 'apple_img12 slide';
   sq[currentSlide].className = 'square1';
   currentSlide = (currentSlide - 1) % slides.length;
   if (currentSlide < 0) currentSlide = slides.length - 1;
-  slides[currentSlide].className = 'slide showing';
+  slides[currentSlide].className = 'apple_img12 slide showing';
   sq[currentSlide].className = 'square1 chosen_sq';
+  console.log(currentSlide);
 };
 
 document.getElementById('next').onclick = function nextSlide() {
-  slides[currentSlide].className = 'slide';
+  slides[currentSlide].className = 'apple_img12 slide';
   sq[currentSlide].className = 'square1';
   currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].className = 'slide showing';
+  slides[currentSlide].className = 'apple_img12 slide showing';
   sq[currentSlide].className = 'square1 chosen_sq';
+  console.log(currentSlide);
 };
 
 document.querySelector('.sq1').onclick = () => {
-  slides[currentSlide].className = 'slide';
+  slides[currentSlide].className = 'apple_img12 slide';
   sq[currentSlide].className = 'square1';
   currentSlide = 0;
-  slides[currentSlide].className = 'slide showing';
-  slides[currentSlide].className = 'slide showing';
+  // slides[currentSlide].className = 'slide showing';
+  slides[currentSlide].className = 'apple_img12 slide showing';
   sq[currentSlide].className = 'square1 sq1 chosen_sq';
+  console.log(currentSlide);
 };
 
 document.querySelector('.sq2').onclick = () => {
-  slides[currentSlide].className = 'slide';
+  slides[currentSlide].className = 'apple_img12 slide';
   sq[currentSlide].className = 'square1';
   currentSlide = 1;
-  slides[currentSlide].className = 'slide showing';
-  slides[currentSlide].className = 'slide showing';
+  // slides[currentSlide].className = 'slide showing';
+  slides[currentSlide].className = 'apple_img12 slide showing';
   sq[currentSlide].className = 'square1 sq2 chosen_sq';
+  console.log(currentSlide);
 };
 
 document.querySelector('.sq3').onclick = () => {
-  slides[currentSlide].className = 'slide';
+  slides[currentSlide].className = 'apple_img12 slide';
   sq[currentSlide].className = 'square1';
   currentSlide = 2;
-  slides[currentSlide].className = 'slide showing';
-  slides[currentSlide].className = 'slide showing';
+  // slides[currentSlide].className = 'slide showing';
+  slides[currentSlide].className = 'apple_img12 slide showing';
   sq[currentSlide].className = 'square1 sq3 chosen_sq';
+  console.log(currentSlide);
 };
 
 document.querySelector('.sq4').onclick = () => {
-  slides[currentSlide].className = 'slide';
+  slides[currentSlide].className = 'apple_img12 slide';
   sq[currentSlide].className = 'square1';
   currentSlide = 3;
-  slides[currentSlide].className = 'slide showing';
-  slides[currentSlide].className = 'slide showing';
+  // slides[currentSlide].className = 'slide showing';
+  slides[currentSlide].className = 'apple_img12 slide showing';
   sq[currentSlide].className = 'square1 sq4 chosen_sq';
+  console.log(currentSlide);
 };
 
 document.querySelector('.square6').onclick = function show() {
@@ -140,27 +148,45 @@ document.querySelector('.square9').onclick = function show() {
 };
 
 document.addEventListener('click', (event) => {
-  if (event.srcElement.classList.contains('arrow')){
-    const arr = event.path[2].classList.value;
+  let elements;
+  let change;
+  let flag = 1;
+  if (event.srcElement.classList.contains('know_more')) {
+    const arr = event.path[1].classList.value;
     const newStr = arr.replace(' ', '.');
     const vot = `.${newStr}`;
-    const elements = document.querySelectorAll(vot);
+    elements = document.querySelectorAll(vot);
+
+    const path1 = event.path[3].classList[1];
+    const path2 = event.path[2].className;
+
+    const change1 = `.${path1} .${path2}`;
+
+    change = document.querySelector(change1);
+  } else if (event.srcElement.classList.contains('arrow')) {
+    const arr = event.path[2].classList.value;
+
+    const newStr = arr.replace(' ', '.');
+    const vot = `.${newStr}`;
+    elements = document.querySelectorAll(vot);
 
     const path1 = event.path[4].classList[1];
     const path2 = event.path[3].className;
 
     const change1 = `.${path1} .${path2}`;
-    const change = document.querySelector(change1);
-
-    // eslint-disable-next-line no-restricted-syntax
+    change = document.querySelector(change1);
+  } else {
+    flag = 0;
+  }
+  if (flag === 1){
+  // eslint-disable-next-line no-restricted-syntax
     for (const elem of elements) {
       if (elem.classList.contains('apple_img4')) {
         elem.classList.remove('apple_img4');
         change.style.backgroundColor = '#71f5ea';
         change.style.color = 'black';
         change.style.opacity = '1';
-      }
-      else {
+      } else {
         elem.classList.add('apple_img4');
         change.style.backgroundColor = 'black';
         change.style.opacity = '0.7';

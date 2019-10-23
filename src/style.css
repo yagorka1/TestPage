@@ -78,7 +78,7 @@ a {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 206px;
+  margin-top: 195px;
   width: 995px;
 }
 
@@ -89,8 +89,6 @@ a {
   letter-spacing: 1pt;
   color: rgba(80, 80, 80, 255);
   text-align: center;
-  margin-top: -11px;
-  margin-left: 17px;
   text-shadow: 6px 6px 7px rgba(202,203,205,0.7);
 }
 
@@ -238,6 +236,8 @@ a {
   height: 9px;
   border-radius: 3px;
   background-color: #D0D0D0;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .square1:hover {
@@ -338,6 +338,8 @@ a {
 
 .work_picture {
   margin-bottom: 14px;
+  -webkit-transition: box-shadow 1s;
+  transition: box-shadow 1s;
 }
 
 .work_picture:hover {
@@ -505,7 +507,7 @@ a {
   z-index: 1000;
 }
 
-.arrow:hover {
+.know_more:hover {
   cursor: pointer;
 }
 
@@ -640,6 +642,8 @@ a {
   width: 372px;
   height: 443px;
   background-image: url('./assets/team/2.png');
+  -webkit-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s;
 }
 
 .choose_hov {
@@ -864,6 +868,8 @@ a {
   height: 10px;
   border-radius: 3px;
   background-color: #D0D0D0;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .square:hover {
@@ -952,6 +958,8 @@ a {
   background-color: white;
   margin-right: 3px;
   box-shadow:  5px 5px 10px 3px #EBECED;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .arr {
@@ -1066,7 +1074,7 @@ a {
 .form1 {
   display: flex;
   flex-direction: column;
-  margin-top: 45px;
+  margin-top: 40px;
   margin-left: 31px;
   margin-right: 33px;
   margin-bottom: 38px;
@@ -1074,8 +1082,8 @@ a {
 
 .wrap_input {
   border-bottom: 1px solid #6a7881;
-  height: 32px;
-  margin-bottom: 27px;
+  height: 38px;
+  margin-bottom: 20px;
 }
 
 .label_input {
@@ -1083,6 +1091,10 @@ a {
   font-family: 'Raleway';
   font-size: 11pt;
   margin-left: 4px;
+}
+
+.logo_pic {
+  width: 130px;
 }
 
 .swan {
@@ -1094,8 +1106,12 @@ a {
   color: #c1c6c9;
   border: 0px;
   /* border-bottom: 1px solid #6a7881; */
-  height: 12px;
-  margin-bottom: 28px;
+  height: 30px;
+  margin-bottom: 35px;
+}
+
+.field_input:focus {
+  outline:none;
 }
 
 .field_input_message {
@@ -1175,6 +1191,8 @@ a {
   height: 40px;
   width: 46px;
   background-color: #3f4244;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .wrap_social:hover {

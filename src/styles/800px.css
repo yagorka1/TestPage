@@ -126,6 +126,10 @@
   .row2, .row1 {
     flex-wrap: wrap;
   }
+  .row1 {
+    flex-wrap: wrap;
+    margin-bottom: -38px;
+  }
 
   .row2 {
     /* justify-content: center; */
