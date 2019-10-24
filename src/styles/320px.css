@@ -308,4 +308,27 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+
+   .team_photo1 {
+    background-image: url('../assets/team/1_22.jpg');
+  }
+
+  .team_photo2 {
+    background-image: url('../assets/team/2_22.jpg');
+  }
+
+  .team_photo3 {
+    background-image: url('../assets/team/3_22.jpg');
+  }
+
+  .team_photo4 {
+    background-image: url('../assets/team/4_22.jpg');
+  }
+  .team_photo5 {
+    background-image: url('../assets/team/5_22.jpg');
+  }
+
+  .team_photo6 {
+    background-image: url('../assets/team/1_22.jpg');
+  }
 }
