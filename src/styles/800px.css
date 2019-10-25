@@ -1,29 +1,12 @@
-@media only screen and (min-width:1440px){
+
+@media only screen and (max-width:800px){
 
   .header {
-    width: 1300px;
-  }
-  .about_us {
-    width: 1440px;
-  }
-
-  .logos {
-    width: 100%;
-  }
-
-  .connection_us {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width:1300px){
-
-  .header {
-    width: 800px;
+    width: 480px;
   }
 
   .title_txt {
-    font-size: 27pt;
+    font-size: 20pt;
   }
 
   .img_juice {
@@ -31,11 +14,11 @@
   }
 
   .shopno {
-    width: 700px;
+    width: 470px;
   }
 
   .title {
-    width: 700px;
+    width: 470px;
   }
 
   .main {
@@ -44,113 +27,170 @@
 
   .about_us {
     width: 100%;
-    margin-top: 50px;
   }
 
   .about_us_content {
-    margin-top: 52px;
+    width: 480px;
   }
 
-  .about_us_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
+  .title_h1 {
+    font-size: 21pt;
+  }
+
+  .description {
+    font-family: 'Merriweather';
+    color: #848585;
+    font-size: 10pt;
+    margin-top: -11px;
+  }
+
+  .about_us_slides {
+    width: 320px;
   }
 
   .description_about_us {
     margin-top: 30px;
-  }
-
-  .featured_works {
-    margin-top: 50px;
-  }
-
-  .works {
-    width: 800px;
-    margin-top: 70px;
-    justify-content: space-around;
-  }
-
-  .work_picture {
-    width: 350px;
-  }
-
-  .our_services {
-    width: 800px;
-    margin-top: 0px;
-  }
-
-  .services {
-    width: 800px;
-    margin-top: 30px;
-    justify-content: center;
-  }
-
-  .small_team {
-    width: 800px;
-    margin-top: 10px;
-  }
-
-  .team {
-    width: 800px;
-    margin-top: 30px;
-    justify-content: space-around;
-  }
-
-  .team_photo {
-    width: 350px;
-  }
-
-  .what_they_says {
-    width: 100%;
-    margin-top: 36px;
-  }
-
-  .what_they_says_content {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-
-  .connection_us {
-    width: 800px;
-  }
-
-  .logos {
-    width: 800px;
-  }
-
-  .row2, .row1 {
-    flex-wrap: wrap;
-  }
-  .row1 {
-    flex-wrap: wrap;
-    margin-bottom: -38px;
-  }
-
-  .row2 {
-    width: 533px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 290px;
   }
 
   .service {
-    width: 800px;
+    width: 480px;
   }
 
-  .logo_pic {
-    margin-left: 10px;
-    margin-right: 10px;
+  .description_service1 {
+    margin-left: 26px;
+    margin-top: 140px;
   }
 
-  .connection_us {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  .description_service2 {
+    margin-left: 36px;
+    margin-top: 132px;
+    width: 60%;
   }
 
-  .connection_us_wrap {
-    height: 1200px;
+  .description_service3 {
+    margin-left: 35px;
+    margin-top: 135px;
+    width: 61%;
   }
+
+  .description_service4 {
+    margin-left: 36px;
+    margin-top: 135px;
+    width: 60%;
+  }
+
+  .description_service5 {
+    margin-left: 35px;
+    margin-top: 135px;
+    width: 60%;
+  }
+
+  .description_service5 {
+    margin-left: 35px;
+    margin-top: 135px;
+    width: 60%;
+  }
+
+
+  .featured_works {
+    margin-top: 0px;
+  }
+
+  .works {
+    width: 480px;
+  }
+
+  .titles_h11 {
+    font-size: 21pt;
+
+  }
+
+  .descriptions1 {
+    font-size: 10pt;
+    margin-top: 0px;
+  }
+
+  .titles_h1 {
+    font-size: 21pt;
+  }
+
+  .descriptions2 {
+    font-size: 10pt;
+    margin-top: -12px;
+  }
+
+  .our_services {
+    width: 480px;
+  }
+
+  .services {
+    width: 480px;
+  }
+
+  .small_team {
+    width: 480px;
+  }
+
+  .titles_h3 {
+    font-size: 21pt;
+  }
+
+  .descriptions3 {
+    font-size: 10pt;
+    margin-top: -10px;
+  }
+
+  .team {
+    width: 480px;
+  }
+
+  .titles_h4 {
+    font-size: 21pt;
+  }
+
+  .descriptions4 {
+    font-size: 10pt;
+    margin-top: -25px;
+  }
+
+  .review {
+    width: 470px;
+    margin-top: 26px;
+  }
+
+  .review_content {
+    margin-top: 50px;
+    width: 470px;
+  }
+
+  .row2, .row1 {
+    width: 480px;
+  }
+
+  .connection_message {
+    width: 470px;
+  }
+
+  .location {
+    width: 450px;
+  }
+
+  #map {
+  width: 405px;
+  height: 204px;
+  margin-left: 10px;
+}
+
+  .connection_message {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .location {
+    margin-left: 0px;
+  }
+
 }

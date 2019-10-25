@@ -1,0 +1,17 @@
+@media only screen and (min-width:1440px){
+
+  .header {
+    width: 1300px;
+  }
+  .about_us {
+    width: 1440px;
+  }
+
+  .logos {
+    width: 100%;
+  }
+
+  .connection_us {
+    width: 100%;
+  }
+}

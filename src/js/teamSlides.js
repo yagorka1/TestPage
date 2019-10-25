@@ -1,14 +1,14 @@
 const slides = document.querySelectorAll('#slides .slide');
-const sq = document.querySelectorAll('.square1');
+const squareMass = document.querySelectorAll('.square1');
 let currentSlide = 0;
 
 const changePeoplesSlide = (direction) => {
   slides[currentSlide].className = 'slide';
-  sq[currentSlide].classList.remove('chosen_sq');
+  squareMass[currentSlide].classList.remove('chosen_sq');
   currentSlide = (currentSlide + direction) % slides.length;
   if (currentSlide < 0) currentSlide = slides.length - 1;
   slides[currentSlide].className = 'slide showing';
-  sq[currentSlide].classList.add('chosen_sq');
+  squareMass[currentSlide].classList.add('chosen_sq');
 };
 
 document.getElementById('prev').onclick = () => {
@@ -28,8 +28,7 @@ const changePeopleSlide = (event) => {
   currentSlide = numSlide;
   slides[currentSlide].className = 'slide showing';
 
-  const sss = event.path[0].classList[1];
-  document.querySelector(`.${sss}`).classList.add('chosen_sq');
+  document.querySelector(`.${id}`).classList.add('chosen_sq');
   event.path[0].classList.add('chosen_sq');
 };
 

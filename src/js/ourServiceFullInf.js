@@ -17,6 +17,8 @@ document.addEventListener('click', (event) => {
   const selector = `.${path1} .${path2}`;
   const change = document.querySelector(selector);
 
+  // const change = event.path[3];
+
   const changeBlockStyle = (bgColor, color, opacity) => {
     change.style.backgroundColor = bgColor;
     change.style.color = color;

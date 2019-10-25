@@ -3,14 +3,14 @@ $(document).ready(() => {
   $('.image').click(function () {
     const img = $(this);
     const src = img.attr('src');
-    $('body').append(`${"<div class='popup'>"
-    + "<div class='popup_bg'></div>"
-    + "<img src='"}${src}' class='popup_img' /></div>`);
-    $('.popup').fadeIn(200);
-    $('.popup_bg').click(() => {
-      $('.popup').fadeOut(200);
+    $('body').append(`${"<div class='increaseScreen'>"
+    + "<div class='backGround'></div>"
+    + "<img src='"}${src}' class='increased_img' /></div>`);
+    $('.increaseScreen').fadeIn(200);
+    $('.backGround').click(() => {
+      $('.increaseScreen').fadeOut(200);
       setTimeout(() => {
-        $('.popup').remove();
+        $('.increaseScreen').remove();
       }, 200);
     });
   });
