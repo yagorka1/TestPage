@@ -5,11 +5,11 @@
     width: 320px;
   }
 
-  .title_txt {
+  .title_page {
     font-size: 12pt;
   }
 
-  .shopno {
+  .container {
     width: 310px;
   }
 
@@ -25,7 +25,7 @@
     width: 320px;
   }
 
-  .title_h1 {
+  .title-about-us {
     font-size: 12pt;
   }
 
@@ -46,7 +46,7 @@
     width: 320px;
   }
 
-  .aa {
+  .wrapper-slides {
     width: 320px;
     overflow: hidden;
   }
@@ -268,7 +268,7 @@
 
 }
 
-.logos_wrap {
+.logos_wrapper {
   height: 500px;
 }
 

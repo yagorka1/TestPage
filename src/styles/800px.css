@@ -5,7 +5,7 @@
     width: 480px;
   }
 
-  .title_txt {
+  .title_page {
     font-size: 20pt;
   }
 
@@ -13,7 +13,7 @@
     display: none;
   }
 
-  .shopno {
+  .container {
     width: 470px;
   }
 
@@ -33,7 +33,7 @@
     width: 480px;
   }
 
-  .title_h1 {
+  .title-about-us {
     font-size: 21pt;
   }
 

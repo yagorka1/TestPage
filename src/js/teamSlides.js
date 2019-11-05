@@ -11,18 +11,17 @@ const changePeoplesSlide = (direction) => {
   squareMass[currentSlide].classList.add('chosen_sq');
 };
 
-document.getElementById('prev').onclick = () => {
+document.getElementById('prev').onclick = function onClickChangMan() {
   changePeoplesSlide(-1);
 };
 
-document.getElementById('next').onclick = () => {
+document.getElementById('next').onclick = function toNextSlide() {
   changePeoplesSlide(1);
 };
 
 const changePeopleSlide = (event) => {
-
   const id = String(event.path[0].classList[1]);
-  const numSlide = id.slice(2, 3) - 1;
+  const numSlide = id.slice(2, 3) - 1; // get numb of slide
   slides[currentSlide].className = 'slide';
   document.querySelectorAll('.square1')[currentSlide].classList.remove('chosen_sq');
   currentSlide = numSlide;

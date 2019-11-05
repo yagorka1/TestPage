@@ -4,7 +4,7 @@
     width: 800px;
   }
 
-  .title_txt {
+  .title_page {
     font-size: 27pt;
   }
 
@@ -12,7 +12,7 @@
     display: none;
   }
 
-  .shopno {
+  .container {
     width: 700px;
   }
 
@@ -132,7 +132,7 @@
     width: 100%;
   }
 
-  .connection_us_wrap {
+  .connection_us_wrapper {
     height: 1200px;
   }
 }

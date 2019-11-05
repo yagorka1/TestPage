@@ -1,15 +1,20 @@
-const changeAppleSlide = (event) => {
-  if (event.path[0].classList[0] !== 'square') return;
+const GAP = 6; // it's used to get numb of slide
+const STEP = 7;
 
-  const square = document.querySelectorAll('.square');
-  square.forEach((item) => item.classList.remove('square_choose'));
+const changeAppleSlide = (event) => {
+  if (event.path[0].classList[0] !== 'square') {
+    return;
+  }
+
+  const smallSquare = document.querySelectorAll('.square');
+  smallSquare.forEach((item) => item.classList.remove('square_choose'));
   event.path[0].classList.add('square_choose');
 
-  const numSlide = event.path[0].classList[1].slice(6, 7) - 6;
+  const slideNumber = event.path[0].classList[1].slice(GAP, STEP) - GAP;
   const slidesImg = document.querySelectorAll('.apple_img1');
   slidesImg.forEach((item) => item.classList.add('hide'));
-  slidesImg[numSlide].classList.remove('hide');
+  slidesImg[slideNumber].classList.remove('hide');
 };
 
-const square = document.querySelector('.choose_slides');
-square.addEventListener('click', changeAppleSlide, true);
+const bigSquare = document.querySelector('.choose_slides');
+bigSquare.addEventListener('click', changeAppleSlide, true);

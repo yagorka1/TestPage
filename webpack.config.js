@@ -5,8 +5,8 @@ module.exports = {
   mode: 'production',
   entry: './src/index.js',
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: 'message.js',
+    path: path.resolve(__dirname, 'build'),
   },
   devtool: 'source-map',
   module: {
